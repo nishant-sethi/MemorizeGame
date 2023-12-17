@@ -11,9 +11,6 @@
 		F74FAB4F2B2F64FA00586EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB4E2B2F64FA00586EE4 /* ContentView.swift */; };
 		F74FAB512B2F64FB00586EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FAB502B2F64FB00586EE4 /* Assets.xcassets */; };
 		F74FAB542B2F64FB00586EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FAB532B2F64FB00586EE4 /* Preview Assets.xcassets */; };
-		F74FAB5E2B2F64FB00586EE4 /* MemorizeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB5D2B2F64FB00586EE4 /* MemorizeGameTests.swift */; };
-		F74FAB682B2F64FB00586EE4 /* MemorizeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB672B2F64FB00586EE4 /* MemorizeGameUITests.swift */; };
-		F74FAB6A2B2F64FB00586EE4 /* MemorizeGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB692B2F64FB00586EE4 /* MemorizeGameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		F74FAB502B2F64FB00586EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74FAB532B2F64FB00586EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F74FAB592B2F64FB00586EE4 /* MemorizeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74FAB5D2B2F64FB00586EE4 /* MemorizeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameTests.swift; sourceTree = "<group>"; };
 		F74FAB632B2F64FB00586EE4 /* MemorizeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74FAB672B2F64FB00586EE4 /* MemorizeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameUITests.swift; sourceTree = "<group>"; };
-		F74FAB692B2F64FB00586EE4 /* MemorizeGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				F74FAB4B2B2F64FA00586EE4 /* MemorizeGame */,
-				F74FAB5C2B2F64FB00586EE4 /* MemorizeGameTests */,
-				F74FAB662B2F64FB00586EE4 /* MemorizeGameUITests */,
 				F74FAB4A2B2F64FA00586EE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				F74FAB532B2F64FB00586EE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F74FAB5C2B2F64FB00586EE4 /* MemorizeGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				F74FAB5D2B2F64FB00586EE4 /* MemorizeGameTests.swift */,
-			);
-			path = MemorizeGameTests;
-			sourceTree = "<group>";
-		};
-		F74FAB662B2F64FB00586EE4 /* MemorizeGameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F74FAB672B2F64FB00586EE4 /* MemorizeGameUITests.swift */,
-				F74FAB692B2F64FB00586EE4 /* MemorizeGameUITestsLaunchTests.swift */,
-			);
-			path = MemorizeGameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74FAB5E2B2F64FB00586EE4 /* MemorizeGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74FAB6A2B2F64FB00586EE4 /* MemorizeGameUITestsLaunchTests.swift in Sources */,
-				F74FAB682B2F64FB00586EE4 /* MemorizeGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

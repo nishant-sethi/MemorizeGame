@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F74FAB4D2B2F64FA00586EE4 /* MemorizeGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB4C2B2F64FA00586EE4 /* MemorizeGameApp.swift */; };
-		F74FAB4F2B2F64FA00586EE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB4E2B2F64FA00586EE4 /* ContentView.swift */; };
+		F74FAB4F2B2F64FA00586EE4 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB4E2B2F64FA00586EE4 /* EmojiMemoryGameView.swift */; };
 		F74FAB512B2F64FB00586EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FAB502B2F64FB00586EE4 /* Assets.xcassets */; };
 		F74FAB542B2F64FB00586EE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FAB532B2F64FB00586EE4 /* Preview Assets.xcassets */; };
+		F74FAB772B2FB6E100586EE4 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB762B2FB6E100586EE4 /* MemoryGame.swift */; };
+		F74FAB792B2FB8E100586EE4 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FAB782B2FB8E100586EE4 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +35,13 @@
 /* Begin PBXFileReference section */
 		F74FAB492B2F64FA00586EE4 /* MemorizeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74FAB4C2B2F64FA00586EE4 /* MemorizeGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameApp.swift; sourceTree = "<group>"; };
-		F74FAB4E2B2F64FA00586EE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F74FAB4E2B2F64FA00586EE4 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		F74FAB502B2F64FB00586EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74FAB532B2F64FB00586EE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F74FAB592B2F64FB00586EE4 /* MemorizeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74FAB632B2F64FB00586EE4 /* MemorizeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74FAB762B2FB6E100586EE4 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		F74FAB782B2FB8E100586EE4 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				F74FAB4C2B2F64FA00586EE4 /* MemorizeGameApp.swift */,
-				F74FAB4E2B2F64FA00586EE4 /* ContentView.swift */,
+				F74FAB4E2B2F64FA00586EE4 /* EmojiMemoryGameView.swift */,
+				F74FAB762B2FB6E100586EE4 /* MemoryGame.swift */,
+				F74FAB782B2FB8E100586EE4 /* EmojiMemoryGame.swift */,
 				F74FAB502B2F64FB00586EE4 /* Assets.xcassets */,
 				F74FAB522B2F64FB00586EE4 /* Preview Content */,
 			);
@@ -232,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74FAB4F2B2F64FA00586EE4 /* ContentView.swift in Sources */,
+				F74FAB4F2B2F64FA00586EE4 /* EmojiMemoryGameView.swift in Sources */,
 				F74FAB4D2B2F64FA00586EE4 /* MemorizeGameApp.swift in Sources */,
+				F74FAB772B2FB6E100586EE4 /* MemoryGame.swift in Sources */,
+				F74FAB792B2FB8E100586EE4 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
